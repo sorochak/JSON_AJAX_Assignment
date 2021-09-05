@@ -1,2 +1,1 @@
-# -JSON_AJAX_Assignment
-A JSON &amp; AJAX assignment for my Web Scripting class
+A web scripting class assignment for writing JavaScript and jQuery code that uses AJAX to access JSON files.
