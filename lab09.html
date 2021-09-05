@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 09</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="includes/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="glow">MARVEL VS DC Comics</h1>
+        </div>
+        <div class="box">
+            <div class="dropdown">
+                <select type="select" id="mySelect" class="custom-select" onchange="runJSON()">
+                    <option value="">Select...</option>
+                    <option value="ShowAll">Show all Superheroes</option>
+                    <option value="Marvel">Show Marvel Superheroes</option>
+                    <option value="DC">Show DC Superheroes</option>
+                </select>
+            </div>
+            <br>
+            <div class="tableContainer">
+                <table id="demo"></table>
+            </div>
+        </div>
+        <script src="includes/script.js"></script>
+    </body>
+</html>
